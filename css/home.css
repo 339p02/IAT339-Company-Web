@@ -61,3 +61,51 @@ p{
     z-index: -1;
 }
 
+
+@media (max-width: 600px){
+    h1{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    p{
+        font-size: 13px;
+       text-transform: none; 
+        width: 100%;
+        text-align: center;
+    }
+    
+    .event-container{
+        flex-wrap: wrap;
+        flex-direction: row;
+   
+    }
+    
+    .image-box{
+        flex:1 1 100%;
+        padding-left:0;
+        width: 100%;
+        padding: 0 30vw;
+    }
+    .text-box{
+        flex: 1 1 100%;
+        order: 3;
+        padding-left: 0;
+        padding: 0 10vw;
+    }
+    
+    .image-box img{
+      width: 100%;
+    }
+    
+    .event-1 .text-box{
+       margin-bottom: 20vh;
+    }
+    
+    .event-1 .image-box{
+        margin-top: 10vh
+    }
+    
+}
+
