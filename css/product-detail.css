@@ -11,7 +11,7 @@
 .information, .sample, .comment{
     flex: 2 1 35%;
     padding:0 8vw;
-    align-items: stretch;
+
 }
 
 .sample{
@@ -27,23 +27,42 @@ img{
 .comment{
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex: 1 1 20%;
     padding-left: 5vw;
+    align-items: baseline;
 }
 
 h1{
     margin: 0;
 }
 
-textarea{
+#review{
     width: 100%;
+    padding: 10px 10px;
+    background-color: #fbf3f3;
+     border: none;    
+    border-bottom: 1px solid black;
+    opacity: .5;
+    margin-top: 10px;
+}
+
+#review:hover{
+    opacity: 1;
+}
+
+#review:focus{
+    outline: none;    
+    opacity: 1;
+}
+
+.comment h4{
+    margin-bottom: 10px;
 }
 
 /* STAR */
 .rate {
     height: 46px;
-    padding: 0 10px;
+    padding: 0;
 }
 .rate:not(:checked) > input {
     position:absolute;
