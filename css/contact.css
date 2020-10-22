@@ -80,15 +80,14 @@ em {
         line-height: 30px;
         text-align: center;
     }
-    
+
 
     p {
         font-size: 13px;
         text-transform: none;
-        width: 100%; 
         padding-left: 12px;
     }
-    
+
 
     .contact-container {
         flex-wrap: wrap;
@@ -98,12 +97,11 @@ em {
     .left-side,
     .right-side {
         flex: 1 1 100%;
-        padding: 0 3vw;
+        padding: 40px 9vw;
     }
 
     .left-side {
-        padding: 9vw;
-        height: 190px;
+        height: auto;
     }
 
 }
