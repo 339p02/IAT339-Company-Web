@@ -53,6 +53,12 @@ nav label,
     font-size: 18px;
 }
 
+.nav-items .left a{
+    font-family: 'Dancing Script', serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
 
 
 .nav-link img{
