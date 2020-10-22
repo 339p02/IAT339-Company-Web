@@ -23,8 +23,23 @@ nav label,
     display: none;
 }
 
+
+
+
 /* Horizontal Menu Items */
 .nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items .left{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom:3px solid;
+    border-color: rgb(214, 177, 46);
+}
+
+.nav-items .right{
     display: flex;
     justify-content: flex-end;
 }
@@ -42,7 +57,7 @@ nav label,
 
 .nav-link img{
     width: 20px;
-    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -57,11 +72,10 @@ nav label,
 
     }
 
-    .nav-items a {
+    .nav-items a{
         box-sizing: border-box;
         display: block;
         width: 100%;
-        height: 20vh
 
     }
 
@@ -72,5 +86,10 @@ nav label,
 
     nav input:checked ~ .nav-items {
         display: block;
+    }
+
+
+    .nav-items .right{
+       flex-direction: column;
     }
 }
