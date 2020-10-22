@@ -46,4 +46,60 @@ form{
 
 }
 
-/*=======COMBINED TEXT INPUT ELEMENTS===========*/
+
+
+/*=======PAYMENT FORM ELEMENTS===========*/
+.sample form {
+    display: flex;
+    border: 1px solid black;
+    padding: 39px;
+    padding-right: 0;
+    box-shadow: 3px 3px 3px;
+}
+
+.sample form img {
+    margin-right: 50px;
+    width: 250px;
+    height: 360px;
+    padding-top: 10px;
+}
+
+@media (max-width: 810px) {
+    .sample form img {
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+
+
+}
+
+
+/*======================Cart ELEMENTS===========*/
+.cart img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.cart-box p {
+    padding-left: 80px;
+}
+
+.cart h4 {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: 100;
+}
+
+@media (max-width:590px) {
+    .cart-box p {
+        padding-left: 30px;
+    }
+
+    .cart-box p,
+    .cart h4 {
+        font-size: 14px;
+    }
+}

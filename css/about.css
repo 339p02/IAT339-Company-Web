@@ -48,24 +48,24 @@ p{
         text-align: center;
         margin-top: 40px;
     }
-    
+
     h2{
         font-size: 13px;
         line-height: 17px;
     }
-    
+
     p{
         font-size: 13px;
-       text-transform: none; 
+       text-transform: none;
         width: 100%;
     }
-    
+
     .about{
         flex-wrap: wrap;
         flex-direction: row;
-   
+
     }
-    
+
     .image-box{
         flex:1 1 100%;
         padding-left:0;
@@ -77,18 +77,17 @@ p{
         order: 3;
         padding-left: 0;
     }
-    
+
     .image-box img{
       width: 100%;
     }
-    
+
     .text-box{
        margin-bottom: 20vh;
     }
-    
+
     .image-box{
         margin-top: 18vh
     }
-    
-}
 
+}
