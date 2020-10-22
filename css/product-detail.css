@@ -1,30 +1,32 @@
-.detail{
+.detail-container {
     display: flex;
-    position: relative;
-    top: 3vh;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
 
-.information, .sample, .comment{
+.information,
+.sample,
+.comment {
     flex: 2 1 35%;
-    padding:0 8vw;
+    padding: 0 8vw;
 
 }
 
-.sample{
+.sample {
     padding: 0;
 }
 
-img{
+img {
     width: 30vw;
 }
-.information{
+
+.information {
     padding-right: 5vw;
 }
-.comment{
+
+.comment {
     display: flex;
     flex-direction: column;
     flex: 1 1 20%;
@@ -32,30 +34,53 @@ img{
     align-items: baseline;
 }
 
-h1{
+.comment p {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    opacity: .5;
+    font-size: 14px;
+    font-style: italic;
+}
+
+h1 {
     margin: 0;
 }
 
-#review{
+h2 {
+    margin-top: 0;
+}
+
+#add-to-cart {
+    position: relative;
+    left: 79vw;
+    top: -15vh;
+    background-color: transparent;
+    font-size: 3vw;
+}
+
+
+#review {
     width: 100%;
     padding: 10px 10px;
     background-color: #fbf3f3;
-     border: none;    
+    border: none;
     border-bottom: 1px solid black;
     opacity: .5;
     margin-top: 10px;
+    transition: .2s;
 }
 
-#review:hover{
+#review:hover {
     opacity: 1;
 }
 
-#review:focus{
-    outline: none;    
+#review:focus {
+    outline: none;
     opacity: 1;
 }
 
-.comment h4{
+.comment h4 {
     margin-bottom: 10px;
 }
 
@@ -63,30 +88,37 @@ h1{
 .rate {
     height: 46px;
     padding: 0;
+    transition: .3s;
 }
+
 .rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
+    position: absolute;
+    top: -9999px;
 }
+
 .rate:not(:checked) > label {
-    float:right;
-    width:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:2.8vw;
-    color:#ccc;
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 2.8vw;
+    color: #ccc;
 }
+
 .rate:not(:checked) > label:before {
     content: '★ ';
 }
+
 .rate > input:checked ~ label {
-    color: black;    
+    color: black;
 }
+
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
-    color: black;  
+    color: black;
 }
+
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
 .rate > input:checked ~ label:hover,
