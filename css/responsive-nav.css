@@ -32,14 +32,16 @@ nav label,
     justify-content: space-between;
 }
 
-.nav-items .left{
-    display: flex;
-    justify-content: flex-start;
+nav .left{
+    position: fixed;
+    top: 8px;
+    left: 20px;
+    padding-bottom: 9px;
     border-bottom:3px solid;
     border-color: rgb(214, 177, 46);
 }
 
-.nav-items .right{
+.nav-items {
     display: flex;
     justify-content: flex-end;
 }
@@ -53,7 +55,7 @@ nav label,
     font-size: 18px;
 }
 
-.nav-items .left a{
+nav .left a{
     font-family: 'Dancing Script', serif;
     font-weight: bold;
     letter-spacing: 3px;
@@ -74,6 +76,8 @@ nav label,
         background: transparent;
         font-size: 1.2em;
         padding: 10px;
+        position: fixed;
+        left: 90vw;
 
 
     }
@@ -84,10 +88,12 @@ nav label,
         width: 100%;
 
     }
+    
 
     .nav-items {
         display: none;
         height: 100vh;
+        padding-top: 70px;
     }
 
     nav input:checked ~ .nav-items {
