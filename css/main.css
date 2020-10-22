@@ -5,7 +5,6 @@ p {
 
 html {
     font-family: 'PT Sans', sans-serif;
-    background-color: #fbf3f3;
 }
 
 h3,
@@ -36,3 +35,318 @@ h4 {
     font-size: 20px;
 }
 
+.section-title {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+    margin: 0 30px;
+
+}
+
+
+.code-render-title {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.code-background {
+    background-color: #9c644c;
+    padding: 20px;
+}
+
+
+/*=======INTERACTIVE ELEMENTS===========*/
+
+
+.interactive_elements h2 {
+    margin-bottom: 30px;
+}
+
+.interactive_elements code {
+    width: 400px;
+    padding: 1px;
+    background-color: transparent;
+    color: black
+}
+
+.radio-button label {
+    font-size: 18px;
+    padding: 0px 31px 20px 4px;
+}
+
+
+/*================text elements==========*/
+
+
+.text_elements ol {
+    font-size: 20px;
+    padding-left: 20px;
+    ;
+}
+
+
+
+@media (max-width: 810px) {
+
+    .sample-heading h1,
+    .sample-heading h2,
+    .sample-heading h3,
+    .sample-heading h4 {
+        padding: 0 10px 10px 10px;
+        margin: 0;
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+/*=======PRODUCTION LIST===========*/
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    margin-right: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-box h4 {
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-top: 15px;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.product-box p {
+    margin-top: 0;
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.product-box a {
+    padding-top: 0;
+}
+
+
+@media (max-width: 1024px) {
+    .product-list .img-frame {
+        width: 140px;
+        height: 140px;
+    }
+
+    .product-list .img-link img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .product-box h4,
+    .product-box p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .product-box a {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .combined_elements .container {
+        flex-direction: column;
+    }
+
+    .combined_elements .code-box {
+        width: 90%;
+    }
+
+
+
+}
+
+/*=======NAVIGATION===========*/
+.sample-nav nav {
+    background-color: #fbf3f3;
+    position: relative;
+    z-index: 99;
+}
+
+.sample-nav img {
+    width: 100%;
+}
+
+.sample-nav a {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.sample-nav .nav-link img {
+    width: 20px;
+
+
+}
+
+@media (max-width: 1024px) {
+    .sample-nav .nav-items a {
+        font-size: 16px;
+        padding: 5px;
+        padding-top: 10px;
+    }
+
+    .sample-nav .nav-link img {}
+}
+
+/*=======FORM ELEMENTS===========*/
+.sample form {
+    display: flex;
+    border: 1px solid black;
+    padding: 39px;
+    padding-right: 0;
+    box-shadow: 3px 3px 3px;
+}
+
+.sample form img {
+    margin-right: 50px;
+    width: 250px;
+    height: 360px;
+    padding-top: 10px;
+}
+
+@media (max-width: 810px) {
+    .sample form img {
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+
+
+}
+
+
+
+
+/*======================Cart===========*/
+
+
+.cart img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.cart-box p {
+    padding-left: 80px;
+}
+
+.cart h4 {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: 100;
+}
+
+@media (max-width:590px) {
+    .cart-box p {
+        padding-left: 30px;
+    }
+
+    .cart-box p,
+    .cart h4 {
+        font-size: 14px;
+    }
+}
+
+
+/*====================others==================*/
+
+.basic-idea .container {
+    border-bottom: 2px solid black;
+    flex-direction: column;
+}
+
+.basic-idea h3 {
+    padding-left: 60px;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.basic-idea p {
+    padding-left: 60px;
+    margin-top: 8px;
+    width: 80%;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+@media (max-width:590px) {
+    .basic-idea h3 {
+        padding-left: 0;
+    }
+
+    .basic-idea p {
+        padding-left: 0px;
+
+    }
+}
+
+.color-platte img {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.icon {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.citation {
+    width: 90%;
+}
+
+.citation li {
+    width: 90%;
+}
+
+
+}
+
+/*=============ICON=============*/
+.icon {
+    justify-content: center;
+}
+
+.icon img {
+    width: 50px;
+    margin-right: 40px;
+}
+
+.icon h3 {
+    width: 100%;
+}
+
+.sg-nav .nav-items a {
+    flex: 1 1 10%;
+}
+
+.sg-nav .nav-items {
+    justify-content: center;
+}
+
+.sg-title {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 60px;
+}
