@@ -42,6 +42,53 @@ p{
 }
 
 
-@media (max-width:600px){
+@media (max-width: 600px){
+    h1{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    h2{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    
+    p{
+        font-size: 13px;
+       text-transform: none; 
+        width: 100%;
+    }
+    
+    .about{
+        flex-wrap: wrap;
+        flex-direction: row;
+   
+    }
+    
+    .image-box{
+        flex:1 1 100%;
+        padding-left:0;
+        width: 100%;
+        padding: 0 10vw;
+    }
+    .text-box{
+        flex: 1 1 100%;
+        order: 3;
+        padding-left: 0;
+    }
+    
+    .image-box img{
+      width: 100%;
+    }
+    
+    .text-box{
+       margin-bottom: 20vh;
+    }
+    
+    .image-box{
+        margin-top: 18vh
+    }
     
 }
+
