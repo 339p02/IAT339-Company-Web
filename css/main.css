@@ -34,3 +34,38 @@ h3 {
 h4 {
     font-size: 20px;
 }
+
+
+/************footer***********/
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer h4{
+  font-size: 1em;
+  font-style: bold;
+  margin: 0;
+}
+
+footer p{
+  font-size: 0.8em;
+}
+
+footer .iconBox{
+	display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  border-top:solid;
+  border-color: #e9d292;
+  justify-content: center;
+}
+
+footer .iconBox img{
+  width: 20px;
+  height: 20px;
+  margin: 0.5em;
+}
