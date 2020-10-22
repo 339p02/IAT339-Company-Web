@@ -124,7 +124,7 @@ from https://css-tricks.com/float-labels-css/
     top: 10px;
     padding: 0.5rem;
     color: black;
-    background-color: white;
+    background-color: transparent;
     text-decoration: none;
     transition: .4s ease;
     opacity: .5;
