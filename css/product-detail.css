@@ -1,3 +1,50 @@
+/* STAR */
+.rate {
+    height: 46px;
+    padding: 0;
+    transition: .3s;
+}
+
+.rate:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 2.8vw;
+    color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rate > input:checked ~ label {
+    color: black;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: black;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: black;
+}
+
+
+
+/*main*/
+
 .detail-container {
     display: flex;
     height: 100vh;
@@ -18,7 +65,7 @@
     padding: 0;
 }
 
-img {
+.detail-container img {
     width: 30vw;
 }
 
@@ -84,45 +131,85 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* STAR */
-.rate {
-    height: 46px;
-    padding: 0;
-    transition: .3s;
-}
 
-.rate:not(:checked) > input {
-    position: absolute;
-    top: -9999px;
-}
+/*Responsive*/
+@media (max-width: 800px) {
+    .detail-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        top: 90px;
 
-.rate:not(:checked) > label {
-    float: right;
-    width: 1em;
-    overflow: hidden;
-    white-space: nowrap;
-    cursor: pointer;
-    font-size: 2.8vw;
-    color: #ccc;
-}
+    }
 
-.rate:not(:checked) > label:before {
-    content: '★ ';
-}
+    .information,
+    .comment,
+    .sample {
+        flex: 1 1 100%;
+        margin: 30px 0;
+    }
 
-.rate > input:checked ~ label {
-    color: black;
-}
+    .information {
+        order: 2;
+    }
 
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
-    color: black;
-}
+    .sample {
+        order: 1;
 
-.rate > input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
-    color: black;
+    }
+
+
+
+    .detail-container img {
+        height: 270px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .comment {
+        order: 3;
+        padding:0 8vw;
+        margin-bottom: 90px;
+    }
+
+    .information h3 {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .information h2 {
+        font-size: 20px;
+    }
+
+    .information h1 {
+        font-size: 25px;
+    }
+
+    .information p {
+        font-size: 15px;
+    }
+
+    #add-to-cart {
+        font-size: 16px;
+        left: 73%;
+        top: -247px;
+        background: black;
+        color: white;
+        opacity: 1;
+
+    }
+
+    .rate:not(:checked) > label {
+        float: right;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 30px;
+        color: #ccc;
+    }
+
+
 }
