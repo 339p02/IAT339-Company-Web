@@ -9,7 +9,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/interaction.css" rel="stylesheet">
     <link href="css/responsive-nav.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 
 
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -36,23 +36,32 @@
     </nav>
 
 
-    <section class="about">
-        <div class="image-box">
-            <img src="./image/about/about.jpg" alt="in store photo">
+    <section class="contact-container">
+
+        <div class="left-side">
+            <h1>Connect with us</h1>
+            <h2>If you have any question about our lipdticks, order or shipping. Don't hesitate to send us a message. We are glad to help.</h2>
+
+            <p><em>Phone</em> 778-666-5888</p>
+            <p><em>Email</em> lipslips@beauty.com</p>
+
         </div>
+        <div class="right-side">
+            <form>
 
-        <div class="text-box">
-            <h1>ABOUT US</h1>
-            
-            <h2>Lips&Lips online store are committed to bringing you the best quality of lipstick from selected brands</h2>
-            
-            <p>Lips&Lips is a company that provides the service of purchasing popular local cosmetics products in China. We mainly sell lipsticks of local cosmetics brands in China, include PERFECT DIARY, 3CE and Flower Knows.
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname">
 
-                We focus on providing purchasing services for the customers who want to buy the popular local cosmetics brand products in China. At here you can find every Chinese popular lipstick which you want!
-            </p>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname">
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject"></textarea>
+
+                <input type="submit" value="Submit" class="submit-reset">
+
+            </form>
         </div>
 
     </section>
-</body>
-
-</html>
+</body></html>

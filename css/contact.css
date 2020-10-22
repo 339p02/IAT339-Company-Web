@@ -1,0 +1,109 @@
+html {
+    background-color: #fbf3f3;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.left-side {
+    flex: 1 1 30%;
+    padding-left: 8vw;
+}
+
+.right-side {
+    flex: 2 1 60%;
+}
+
+/*FORM style*/
+
+textarea {
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 8vw;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+/*TEXT style*/
+
+h1 {
+    font-size: 9vw;
+    line-height: 7.5vw;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.5vw;
+    line-height: 2.8vw;
+}
+
+p {
+    font-size: 1.4vw;
+}
+
+em {
+    font-style: normal;
+    font-weight: 900;
+    padding-right: 15px;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+
+    p {
+        font-size: 13px;
+        text-transform: none;
+        width: 100%; 
+        padding-left: 12px;
+    }
+    
+
+    .contact-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .left-side,
+    .right-side {
+        flex: 1 1 100%;
+        padding: 0 3vw;
+    }
+
+    .left-side {
+        padding: 9vw;
+        height: 190px;
+    }
+
+}
