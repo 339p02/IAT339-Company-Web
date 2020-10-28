@@ -52,6 +52,8 @@ p{
     h2{
         font-size: 13px;
         line-height: 17px;
+        font-style: italic;
+        font-weight: 100;
     }
 
     p{
@@ -63,6 +65,7 @@ p{
     .about{
         flex-wrap: wrap;
         flex-direction: row;
+        padding: 0 5vw;
 
     }
 
@@ -71,23 +74,19 @@ p{
         padding-left:0;
         width: 100%;
         padding: 0 10vw;
+          margin-top: 18vh
     }
     .text-box{
         flex: 1 1 100%;
         order: 3;
         padding-left: 0;
+         margin-bottom: 20vh;
     }
 
     .image-box img{
       width: 100%;
     }
 
-    .text-box{
-       margin-bottom: 20vh;
-    }
 
-    .image-box{
-        margin-top: 18vh
-    }
 
 }
