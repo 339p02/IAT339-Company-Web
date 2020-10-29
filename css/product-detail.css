@@ -156,7 +156,8 @@ h2 {
 
     .information {
         order: 2;
-        padding-top: 50px;
+        padding-top: 0;
+        margin-top: 0;
     }
 
     .sample {
@@ -214,7 +215,7 @@ h2 {
     }
 
     .add-to-cart{
-        padding: 0 50px;
+        padding: 0 30px;
     }
 
     .rate:not(:checked) > label {

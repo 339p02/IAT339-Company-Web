@@ -19,7 +19,7 @@ section {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 
@@ -55,14 +55,10 @@ h1 {
     align-items: center;
 }
 
-.ad-3ce p {
-    font-size: 1.5vw;
-}
+
 
 .ad-3ce .img-box {
     flex: 1 1 30%;
-    padding-right: 4vw;
-    margin: 50px 0;
 
 }
 
@@ -72,8 +68,6 @@ h1 {
 
 .ad-3ce .text-box {
     flex: 1 1 70%;
-    padding-left: 4vw;
-    border-left: 2px solid black;
     margin: 50px 0;
 }
 
@@ -116,17 +110,58 @@ h1 {
     .ad, .ad-3ce{
         flex-direction: column;
     }
+
     
     .img-box, .text-box{
         flex: 1 1 100%;
         width: 100%;
         margin: 20px 0;
+        margin-top: 0;
+          border: none;
+        padding: 0;
+    }
+    
+    .text-box p{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    
+     .text-box h1{
+        font-size: 25px;
     }
     
     .three-ce .img-box,.three-ce .text-box{
         margin: 20px 0;
+        margin-top: 0;
+        
     }
     .product{
         padding: 30px;
+        margin-top: 40px;
     }
+    
+    .product-box p{
+        font-size: 14px;
+    }
+    
+    .product-box h4{
+        font-size: 15px;
+    }
+    
+    .product-box .in-text-link{
+        font-size: 13px;
+        opacity: 1;
+        background-color: black;
+        color: white;
+        margin-bottom: 50px;
+    }
+    
+    .img-link{
+        height: 160px;
+    }
+    
+    footer{
+        margin-top: 140px;
+    }
+    
 }
