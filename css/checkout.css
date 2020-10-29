@@ -23,6 +23,7 @@ section{
     padding-right: 4vw;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .right-side {
