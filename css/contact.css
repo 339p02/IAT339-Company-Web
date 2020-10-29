@@ -2,12 +2,10 @@ html {
     background-color: #fbf3f3;
 }
 
-.contact-container {
+section {
     display: flex;
-    align-items: baseline;
-    justify-content: center;
-    align-content: stretch;
-    
+    height: 100vh;
+
 }
 
 .left-side,
@@ -25,7 +23,7 @@ html {
 }
 
 .right-side {
-    flex: 2 1 50%;
+    flex: 1 1 50%;
     padding-left: 4vw;
     padding-right: 8vw;
     border-left: 2px solid black;
@@ -33,7 +31,9 @@ html {
 }
 
 
-
+.contact-container{
+    align-items: center;
+}
 /*FORM style*/
 
 
@@ -56,7 +56,7 @@ input {
 h1 {
     font-size: 9vw;
     line-height: 7.5vw;
-    margin-bottom: 0;
+    margin: 0;
     text-transform: uppercase;
 }
 
@@ -110,6 +110,7 @@ p {
     .contact-container {
         flex-wrap: wrap;
         flex-direction: column;
+        height: auto;
     }
 
     .left-side,
@@ -126,6 +127,7 @@ p {
     
     .right-side{
         width: 100%;
+        
     }
     
     
