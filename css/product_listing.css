@@ -117,9 +117,16 @@ h1 {
         flex-direction: column;
     }
     
-    .img-box, .text-box, .ad-3ce .img-box,
-
-.ad-3ce .text-box{
+    .img-box, .text-box{
         flex: 1 1 100%;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .three-ce .img-box,.three-ce .text-box{
+        margin: 20px 0;
+    }
+    .product{
+        padding: 30px;
     }
 }
