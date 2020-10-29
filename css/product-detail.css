@@ -143,6 +143,7 @@ h2 {
         flex-direction: row;
         position: relative;
         top: 90px;
+        height: auto;
 
     }
 
@@ -207,11 +208,11 @@ h2 {
         text-align: center;
         width: 100%;
         padding: 10px;
-    
-        
+
+
 
     }
-    
+
     .add-to-cart{
         padding: 0 50px;
     }
