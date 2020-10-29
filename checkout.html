@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lips & lips</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/interaction.css" rel="stylesheet">
-    <link href="css/grid.css" rel="stylesheet">
     <link href="css/responsive-nav.css" rel="stylesheet">
     <link href="css/checkout.css" rel="stylesheet">
 
@@ -26,9 +25,9 @@
         <input type="checkbox" id="hamburger" />
 
         <!-- nav menu// -->
-         <div class="left">
+        <div class="left">
             <a>Lips&Lips</a>
-          </div>
+        </div>
         <div class="nav-items">
             <a href="index.html" class="nav-link">Home</a>
             <a href="about.html" class="nav-link">About</a>
@@ -40,60 +39,55 @@
     </nav>
 
 
-    <section class="c-container">
+    <h2>CHECK OUT </h2>
+    <section class="checkout-container">
 
         <!-- cart// -->
-        <h2>Check Out</h2>
-        <div class="cart box">
+        <div class="left-side">
+
             <div class="cart-box">
                 <img src="./image/product/p6.jpg" alt="">
-                <p>WANDF Lipstick 01</p>
+                <p class="name">WANDF Lipstick 01</p>
                 <p>$50.00</p>
             </div>
+
             <div class="cart-box">
                 <img src="./image/product/p8.jpg" alt="">
-                <p>WANDF Lipstick 03</p>
+                <p class="name">WANDF Lipstick 03</p>
                 <p>$70.00</p>
             </div>
+
             <h4>Total: $120.00</h4>
+
         </div>
+
         <!-- form// -->
-        <div class="form-box sample">
-          <form>
-              <img src="./image/p2.jpg" alt="">
+        <form class="right-side">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
 
-              <div class="payment">
-                  <div class="text-input">
-                      <input type="text" id="name" name="name" required>
-                      <label for="name">Name</label><br>
-                  </div>
 
-                  <div class="text-input">
-                      <input type="text" id="address" name="adress" required>
-                      <label for="address">Address</label><br>
-                  </div>
+            <label for="address">Address</label>
+            <input type="text" id="address" name="adress" required>
 
-                  <div class="text-input">
-                      <input type="text" id="phone-num" name="phone-num" required>
-                      <label for="phone-num">Phone</label><br>
-                  </div>
 
-                  <div class="text-input">
-                      <input type="text" id="card-num" name="card-num" required>
-                      <label for="card-num">Card</label><br>
-                  </div>
+            <label for="phone-num">Phone</label>
+            <input type="text" id="phone-num" name="phone-num" required>
 
-                  <div class="text-input">
-                      <input type="text" id="cvv" name="cvv" required>
-                      <label for="cvv">CVV</label><br>
-                  </div>
 
-                  <input type="submit" value="Submit" class="submit-reset">
-              </div>
 
-          </form>
+            <label for="card-num">Card</label>
+            <input type="text" id="card-num" name="card-num" required>
 
-        </div>
+
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+
+            <input type="submit" value="Submit" class="submit-reset">
+        </form>
+
     </section>
 
 

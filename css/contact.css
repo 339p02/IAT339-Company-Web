@@ -109,14 +109,14 @@ p {
 
     .contact-container {
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
     }
 
     .left-side,
     .right-side {
         flex: 1 1 100%;
-        padding: 40px 9vw;
+        padding: 40px 30px;
         border-left: none;
     }
 
