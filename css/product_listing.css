@@ -94,6 +94,7 @@ h1 {
     font-size: 18px;
     font-weight: 200;
     margin: 0;
+    text-align: center;
 }
 
 .product-box p{
@@ -111,7 +112,7 @@ h1 {
         flex-direction: column;
     }
 
-    
+
     .img-box, .text-box{
         flex: 1 1 100%;
         width: 100%;
@@ -120,34 +121,34 @@ h1 {
           border: none;
         padding: 0;
     }
-    
+
     .text-box p{
         font-size: 13px;
         margin-bottom: 30px;
     }
-    
+
      .text-box h1{
         font-size: 25px;
     }
-    
+
     .three-ce .img-box,.three-ce .text-box{
         margin: 20px 0;
         margin-top: 0;
-        
+
     }
     .product{
         padding: 30px;
         margin-top: 40px;
     }
-    
+
     .product-box p{
         font-size: 14px;
     }
-    
+
     .product-box h4{
         font-size: 15px;
     }
-    
+
     .product-box .in-text-link{
         font-size: 13px;
         opacity: 1;
@@ -155,16 +156,16 @@ h1 {
         color: white;
         margin-bottom: 50px;
     }
-    
+
     .img-link{
         height: 160px;
     }
-    
+
     footer{
         margin-top: 160px;
-        
-    }
-    
 
-    
+    }
+
+
+
 }
