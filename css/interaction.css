@@ -23,23 +23,25 @@ from https://css-tricks.com/float-labels-css/
 .text-input input {
   width: 100%;
   height: 30px;
-  margin-bottom: 50px;
-  outline: none;
-  border: none;
+  margin-bottom: 0;
+    border: none;
+    outline: none;
   background-color: transparent;
   border-bottom: 1px solid black;
 }
 
 .text-input input:hover {
-  transform: scale(1.1);
+ /* transform: scale(1.1);*/
+    opacity: 1;
 }
 
 .text-input input:focus {
-  transform: scale(1.1);
+  /* transform: scale(1.1);*/
+    opacity: 1;
 }
 
 .text-input input:valid {
-  transform: scale(1.1);
+  /* transform: scale(1.1);*/
   color: rgb(0);
   background-color: rgb(255);
 }
@@ -50,8 +52,8 @@ from https://css-tricks.com/float-labels-css/
 
 .text-input input:focus+label,
 .text-input input:valid+label {
-  top: -25px;
-  left: -10px;
+  top: -15px;
+  left: -5px;
   transform: scale(0.9);
   opacity: 1;
 }
