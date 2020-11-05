@@ -44,31 +44,25 @@ h4 {
 /************footer***********/
 footer{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background: #fbf3f3;
-  width:100vw;
+  width:100%;
     margin-top: 60px;
+    border-top: 2px solid black;
 }
 
-footer h4{
-  font-size: 1em;
-  font-style: bold;
-  margin: 0;
-}
 
 footer p{
   font-size: 0.8em;
+    flex: 1 1 33.3%;
 }
 
 footer .iconBox{
 	display: flex;
   flex-wrap: wrap;
-  width: 80%;
-  border-top:solid;
-  border-color: #e9d292;
+  flex: 1 1 33.3%;
   justify-content: center;
 }
 
@@ -76,4 +70,16 @@ footer .iconBox img{
   width: 20px;
   height: 20px;
   margin: 0.5em;
+}
+
+footer .linkBox{
+    flex: 1 1 33.3%;
+    display: flex;
+     margin-bottom: 30px;
+}
+
+@media (max-width: 600px){
+    footer .linkBox{
+        flex-direction: column;
+    }
 }
