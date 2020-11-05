@@ -58,6 +58,10 @@ p{
     bottom: 0;
 }
 
+footer{
+    margin: 0;
+}
+
 
 @media (max-width: 600px){
     h1{
