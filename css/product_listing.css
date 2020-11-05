@@ -56,7 +56,9 @@ h1 {
 }
 
 
-
+.poster-3ce p{
+    font-size: 1.5vw;
+}
 .poster-3ce .img-box {
     flex: 1 1 30%;
 
