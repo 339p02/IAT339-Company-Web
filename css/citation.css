@@ -1,0 +1,53 @@
+
+.citation {
+    display: flex;
+    flex-direction: column;
+    padding:100px 80px;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1{
+    font-size: 5vw;
+    line-height: 7.5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.citation li{
+    font-size: 1.6vw;
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+    padding: 0.2rem;
+    padding-bottom: 0;
+    opacity: .7;
+}
+
+footer{
+    margin-top: 0;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+    .citation{
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 80px 30px;
+        height: auto;
+    }
+
+
+    .citation li{
+        font-size: 16px;
+        text-transform: none;
+        width: 100%;
+    }
+}
