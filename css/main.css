@@ -24,9 +24,6 @@ h2 {
     font-family: 'Assistant', sans-serif;
 }
 
-h1 {
-    font-size: 45px;
-}
 
 h2 {
     font-size: 35px;
@@ -41,9 +38,15 @@ h4 {
 }
 
 
+p{
+    font-size: 1.5vw;
+    padding-top: 0.5vw;
+}
+
 /************footer***********/
 footer{
   display: flex;
+    flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -70,12 +73,13 @@ footer .iconBox img{
   width: 20px;
   height: 20px;
   margin: 0.5em;
+    margin-bottom: 20px;
 }
 
 footer .linkBox{
     flex: 1 1 33.3%;
     display: flex;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
 }
 
 @media (max-width: 600px){
