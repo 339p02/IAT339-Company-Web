@@ -4,14 +4,14 @@ section {
 
 .product {
     width: 100%;
-    padding: 4vw 8vw;
+    padding: 2vw 8vw;
 }
 
 .product {
     flex-direction: column;
 }
 
-.ad,
+.poster,
 .product-container {
     flex: 1 1 100%;
 }
@@ -24,11 +24,11 @@ h1 {
 
 
 /*AD SECTION*/
-.ad {
+.poster {
     align-items: center;
 }
 
-.ad p {
+.poster p {
     font-size: 1.5vw;
 }
 
@@ -51,22 +51,22 @@ h1 {
 }
 
 /*3ce ad*/
-.ad-3ce {
+.poster-3ce {
     align-items: center;
 }
 
 
 
-.ad-3ce .img-box {
+.poster-3ce .img-box {
     flex: 1 1 30%;
 
 }
 
-.ad-3ce .img-box img {
+.poster-3ce .img-box img {
     width: 100%;
 }
 
-.ad-3ce .text-box {
+.poster-3ce .text-box {
     flex: 1 1 70%;
     margin: 50px 0;
 }
@@ -95,6 +95,7 @@ h1 {
     font-weight: 200;
     margin: 0;
     text-align: center;
+    width: 230px;
 }
 
 .product-box p {
@@ -109,8 +110,8 @@ h1 {
 
 @media (max-width: 800px) {
 
-    .ad,
-    .ad-3ce {
+    .poster,
+    .poster-3ce {
         flex-direction: column;
     }
 
@@ -126,7 +127,7 @@ h1 {
     }
 
     .text-box p {
-        font-size: 13px;
+        font-size: 16px;
         margin-bottom: 30px;
     }
 
@@ -147,11 +148,12 @@ h1 {
     }
 
     .product-box p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .product-box h4 {
-        font-size: 15px;
+        font-size: 16px;
+        width: 180px;
     }
 
     .product-box .in-text-link {
@@ -173,4 +175,10 @@ h1 {
 
 
 
+}
+
+@media (max-width: 500px){
+    .product-container{
+        flex-direction: column;
+    }
 }
