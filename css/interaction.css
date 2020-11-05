@@ -2,60 +2,60 @@
 This effect is design by myself based on the tutorial
 from https://css-tricks.com/float-labels-css/
 */
-.text-input{
-  position: relative;
-  margin-top: 30px;
-  margin-right: 5px;
-  margin-bottom: 20px;
+.text-input {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-bottom: 20px;
 }
 
 
 .text-input label {
-  cursor: pointer;
-  position: absolute;
-  left: 10px;
-  top: 5px;
-  transition: 0.6s;
-  opacity: .6;
-  font-style: italic;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    transition: 0.6s;
+    opacity: .6;
+    font-style: italic;
 }
 
 .text-input input {
-  width: 100%;
-  height: 30px;
-  margin-bottom: 0;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 0;
     border: none;
     outline: none;
-  background-color: transparent;
-  border-bottom: 1px solid black;
+    background-color: transparent;
+    border-bottom: 1px solid black;
 }
 
 .text-input input:hover {
- /* transform: scale(1.1);*/
+    /* transform: scale(1.1);*/
     opacity: 1;
 }
 
 .text-input input:focus {
-  /* transform: scale(1.1);*/
+    /* transform: scale(1.1);*/
     opacity: 1;
 }
 
 .text-input input:valid {
-  /* transform: scale(1.1);*/
-  color: rgb(0);
-  background-color: rgb(255);
+    /* transform: scale(1.1);*/
+    color: rgb(0);
+    background-color: rgb(255);
 }
 
-.text-input input:hover+label {
-  transform: scale(1.2);
+.text-input input:hover + label {
+    transform: scale(1.2);
 }
 
-.text-input input:focus+label,
-.text-input input:valid+label {
-  top: -15px;
-  left: -5px;
-  transform: scale(0.9);
-  opacity: 1;
+.text-input input:focus + label,
+.text-input input:valid + label {
+    top: -15px;
+    left: -5px;
+    transform: scale(0.9);
+    opacity: .6;
 }
 
 
@@ -73,7 +73,7 @@ from https://css-tricks.com/float-labels-css/
 .img-link img {
     width: 100%;
     height: 100%;
-    
+
 }
 
 .img-link img {
@@ -84,48 +84,48 @@ from https://css-tricks.com/float-labels-css/
     transform: scale(1.2);
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
     .img-frame {
-    width: 180px;
-    height: 180px;
-    overflow: hidden;
-}
+        width: 180px;
+        height: 180px;
+        overflow: hidden;
+    }
 }
 
 /* Styling for radio-input button*/
 .radio-input {
-  width: 23px;
-  height: 23px;
-  appearance: none;
-  position: relative;
-  vertical-align: middle;
-  top: -5px;
+    width: 23px;
+    height: 23px;
+    appearance: none;
+    position: relative;
+    vertical-align: middle;
+    top: -5px;
 }
 
 .radio-input:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .radio-input:checked:before {
-  content: '';
-  width: 20px;
-  height: 20px;
-  border: 1px solid #9c644c;
-  background: #9c644c;
-  display: inline-block;
-  border-radius: 50%;
-  vertical-align: middle;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9c644c;
+    background: #9c644c;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
 .radio-input:checked:after {
-  content: '✔';
-  color:white;
-  text-align: center;
-  display: block;
-  position: absolute;
-  top: 1px;
-  left: 5px;
-  vertical-align: middle;
+    content: '✔';
+    color: white;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    vertical-align: middle;
 }
 
 
@@ -182,20 +182,20 @@ from https://css-tricks.com/float-labels-css/
 }
 */
 .nav-link:before {
-  content: "";
-  background-color: #cf438b;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 4px;
-  visibility: hidden;
-  transition: all 0.4s ease-in-out;
+    content: "";
+    background-color: #cf438b;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
 }
 
 .nav-link:hover:before {
-  visibility: visible;
-  width: 100%;
+    visibility: visible;
+    width: 100%;
 }
 
 
@@ -217,7 +217,7 @@ from https://css-tricks.com/float-labels-css/
 }
 
 /*navigation for style guide*/
-.nav-guide{
+.nav-guide {
     margin-bottom: 60px;
     display: flex;
     flex: 1 1 20%;
@@ -232,6 +232,3 @@ from https://css-tricks.com/float-labels-css/
 .nav-guide a:hover {
     border: none;
 }
-
-
-

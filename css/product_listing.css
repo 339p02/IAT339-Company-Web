@@ -113,6 +113,8 @@ h1 {
     .poster,
     .poster-3ce {
         flex-direction: column;
+        margin-bottom: 30px;
+        text-align: center;
     }
 
 
@@ -157,7 +159,7 @@ h1 {
     }
 
     .product-box .in-text-link {
-        font-size: 13px;
+        font-size: 15px;
         opacity: 1;
         background-color: black;
         color: white;
@@ -169,7 +171,7 @@ h1 {
     }
 
     footer {
-        margin-top: 160px;
+        margin-top: 60px;
 
     }
 

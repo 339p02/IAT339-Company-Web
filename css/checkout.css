@@ -1,11 +1,12 @@
-h2{
+h2 {
     text-align: center;
     padding-top: 30px;
     width: 60%;
+    margin-top: 60px;
 }
 
 
-section{
+section {
     display: flex;
 }
 
@@ -22,7 +23,6 @@ section{
     padding-left: 8vw;
     padding-right: 4vw;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -39,19 +39,20 @@ section{
 /*FORM style*/
 
 
-.cart-box{
+.cart-box {
     display: flex;
-      align-items: center;
+    align-items: center;
     border-bottom: 1px solid black;
 }
 
-.checkout-container img, .checkout-container p{
+.checkout-container img,
+.checkout-container p {
     flex: 1 1 35%;
     font-size: 17px;
     text-align: center;
 }
 
-h4{
+h4 {
     text-align: right;
     font-size: 18px;
     font-weight: 300;
@@ -59,13 +60,16 @@ h4{
 
 
 
-.checkout-container img{
+.checkout-container img {
     width: 10vw;
     padding: 20px;
 }
+
 /*TEXT style*/
 
-
+footer {
+    margin-top: 120px;
+}
 
 @media (max-width: 600px) {
 
@@ -83,33 +87,40 @@ h4{
 
 
 
-    .right-side{
+    .right-side {
         width: 100%;
-        margin-top: 60px;
         padding-top: 60px;
         border-top: 2px solid black;
+        margin-bottom: 60px;
 
     }
-    h2{
+
+    h2 {
         width: 100%;
     }
 
-    .left-side p{
-        font-size: 12px;
+    .left-side p {
+        font-size: 16px;
     }
 
-    h4{
-        font-size: 14px;
+    h4 {
+        font-size: 15px;
+        margin-bottom: 60px;
     }
 
 
-    .submit-reset{
+    .submit-reset {
         width: 100%;
         opacity: 1;
+        margin-top: 25px;
     }
 
-    label{
-        font-size: 14px;
+    label {
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 60px;
     }
 
 }
