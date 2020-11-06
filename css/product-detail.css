@@ -91,7 +91,8 @@
 
 h1 {
     margin: 0;
-    font-size: 35px;
+    font-size: 40px;
+     line-height: 35px;
 }
 
 h2 {
@@ -139,6 +140,10 @@ h2 {
 
 footer{
     margin: 0;
+}
+
+#post{
+    border: 2px solid black;
 }
 
 
@@ -199,6 +204,7 @@ footer{
 
     .information h1 {
         font-size: 25px;
+        line-height: normal;
     }
 
     .information p {
@@ -207,7 +213,7 @@ footer{
 
     #add-to-cart {
         font-size: 16px;
-        top: -290px;
+        top: -330px;
         right: 0;
         background: black;
         color: white;
@@ -223,6 +229,13 @@ footer{
 
     .add-to-cart{
         padding: 0 30px;
+    }
+    
+    #post{
+        width:100%;
+        text-align: center;
+        font-size: 15px;
+
     }
 
     .rate:not(:checked) > label {
