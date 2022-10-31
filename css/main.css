@@ -1,98 +1,104 @@
-*{
-    box-sizing: border-box;
+
+:root {
+  --green: #b0ccc0;
+  --lightorange: #fedece;
+  --orange: #f58d4e;
+  --lightpink: #fedad6;
+  --pink: #fd9f96;
+  --black: rgb(46, 46, 46);
+}
+* {
+  box-sizing: border-box;
 }
 
 p {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
 }
 
 html {
-    font-family: 'PT Sans', sans-serif;
-    background-color: #fbf3f3;
+  font-family: "PT Sans", sans-serif;
+  color:rgb(46, 46, 46);
 }
 
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
 }
 
 h1,
 h2 {
-    font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 
-
 h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-
-
 /************footer***********/
-footer{
+footer {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #fbf3f3;
-  width:100%;
-    margin-top: 60px;
-    border-top: 2px solid black;
+  background: var(--black);
+  color: white;
+  width: 100%;
+  margin-top: 60px;
 }
 
-
-footer p{
+footer p {
   font-size: 15px;
-    flex: 1 1 33.3%;
+  flex: 1 1 33.3%;
 }
 
-footer .iconBox{
-	display: flex;
+footer .iconBox {
+  display: flex;
   flex-wrap: wrap;
   flex: 1 1 33.3%;
   justify-content: center;
 }
 
-footer .iconBox img{
+footer .iconBox img {
   width: 20px;
   height: 20px;
   margin: 0.5em;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-footer .linkBox{
-    flex: 1 1 33.3%;
-    display: flex;
-     margin-bottom: 20px;
+footer .linkBox {
+  flex: 1 1 33.3%;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 footer .linkBox a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: white;
   padding: 0.5rem;
   padding-bottom: 0;
-  opacity: .5;
+  opacity: 0.8;
 }
 
 footer .linkBox a:hover {
-	color: #d9a411;
+  color: var(--lightpink);
   opacity: 1;
 }
 
-@media (max-width: 600px){
-    footer .linkBox{
-        flex-direction: column;
-    }
+
+@media (max-width: 600px) {
+  footer .linkBox {
+    flex-direction: column;
+  }
 }

@@ -14,8 +14,6 @@ p{
 .event-container{
     display: flex;
     align-items: center;
-    background-color: #fbf3f3;
-    border-top: 3px solid black;
     padding-bottom: 80px;
     padding-top: 80px;
 }
@@ -43,13 +41,40 @@ p{
     z-index: -1;
     height: 100vh;
     padding-top: 6vw;
+    background-color: white;
+}
+
+.event-2{
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    padding-top: 6vw;
+    background-color: var(--lightpink);
+}
+
+.event-3{
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    padding-top: 6vw;
+    background-color: white;
+}
+
+.event-4{
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    padding-top: 6vw;
+    background-color: var(--lightpink);
 }
 
 
 .scroll-note{
     width: 100%;
     text-align: center;
-    background-color: #fbf3f3;
     margin: 0;
     position: fixed;
     font-size: 15px;

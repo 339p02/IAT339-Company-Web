@@ -30,7 +30,7 @@ section {
     flex: 1 1 40%;
     padding-left: 4vw;
     padding-right: 8vw;
-    border-left: 2px solid black;
+    border-left: 2px solid silver;
 
 }
 
@@ -42,14 +42,15 @@ section {
 .cart-box {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid silver;
 }
 
 .checkout-container img,
 .checkout-container p {
     flex: 1 1 35%;
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
+    font-weight: 500;
 }
 
 h4 {
@@ -100,12 +101,13 @@ footer {
     }
 
     .left-side p {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     h4 {
-        font-size: 17px;
+        font-size: 14px;
         margin-bottom: 60px;
+        font-weight: 500;
     }
 
 
